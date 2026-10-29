@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'">
+<title>论文审阅工作台 · 工程连接</title><link rel="stylesheet" href="startup.css"></head>
+<body><header>论文审阅工作台</header><main><div class="brand">论文审阅工作台</div><h1>连接本机审阅工程</h1>
+<p>首次启动正在初始化内置审阅引擎，可能需要几分钟。论文和运行记录保存在本机用户工作区；已有工程仍可手动切换。</p>
+<dl><dt>当前工程</dt><dd id="workspace">正在读取配置…</dd></dl>
+<div id="status" role="status">正在核验工程入口和服务身份，请稍候。</div>
+<div class="actions"><button id="choose">选择工程目录</button><button id="retry" class="secondary">重新连接</button></div>
+<p class="note">完整安装包已包含 Python 运行时和审阅引擎，无需另装 Python 或选择工程。模型审阅需要配置 API Key；教师资料由您自行导入。切换工程不会移动或删除原有资料。</p>
+</main><script src="startup.cjs"></script></body></html>

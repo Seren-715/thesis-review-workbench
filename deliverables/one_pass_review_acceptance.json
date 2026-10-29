@@ -1,0 +1,139 @@
+{
+  "status": "verified",
+  "verified_at": "2026-10-09T14:36:50.686517+08:00",
+  "paper_id": "paper_20261009_132046_390353_e0a908c1",
+  "student_name": "周运龙",
+  "source_path": "D:\\svn_agent\\data\\new_papers\\paper_20261009_132046_390353_e0a908c1\\source.docx",
+  "source_sha256": "4587ec52658753684b820c94b50426fd5fcba80be78ba7807cad4c4b5c545844",
+  "original_and_historical_receipts_unchanged": true,
+  "before": {
+    "paper_id": "paper_20261009_132046_390353_e0a908c1",
+    "review_id": "review_20261009_132634_509576_2f575d",
+    "source_sha256": "4587ec52658753684b820c94b50426fd5fcba80be78ba7807cad4c4b5c545844",
+    "groups": {
+      "compliant": 17,
+      "changes": 19,
+      "unreviewed": 4,
+      "pending": 18
+    },
+    "pending_rules": {
+      "NP002": 1,
+      "NP010": 1,
+      "NP011": 1,
+      "NP013": 1,
+      "NP016": 1,
+      "NP017": 2,
+      "NP022": 11
+    },
+    "requests": 2,
+    "tokens": 2530,
+    "unknown": 0,
+    "historical_files": {
+      "run.json": "00caf2dfc62ce163ecfce0aea69087575625b956dc0edfaa46e352ac31d83a56",
+      "report.json": "e6a05ba23b464c121022fed23f8af3cc1332598847f3b7174f9ac6bb2f076fa1"
+    }
+  },
+  "latest_review_id": "review_20261009_142213_172699_4f6659",
+  "latest_report_path": "D:\\svn_agent\\data\\new_papers\\paper_20261009_132046_390353_e0a908c1\\review_20261009_142213_172699_4f6659\\report.md",
+  "result_groups": {
+    "changes": 18,
+    "compliant": 28,
+    "unreviewed": 0,
+    "pending": 7
+  },
+  "automatic_review_completion": {
+    "status": "completed",
+    "total": 45,
+    "reviewable": 45,
+    "reviewed": 45,
+    "blocked": 0,
+    "budget_stopped": 0,
+    "reason": "所有可处理对象已在本轮完成审阅。"
+  },
+  "pending_by_rule": {
+    "NP002": 1,
+    "NP010": 1,
+    "NP011": 1,
+    "NP013": 1,
+    "NP016": 1,
+    "NP017": 2
+  },
+  "native_table_rule": {
+    "data_tables": 6,
+    "local_structural_suggestions": 6,
+    "manual_items": 0,
+    "excluded_prompt_or_content_boxes": 5
+  },
+  "cost_of_this_fix_only": {
+    "requests": 6,
+    "known_tokens": 10759,
+    "unknown_cost_attempts": 0,
+    "Word_requests": 0,
+    "SVN_requests": 0,
+    "runs": [
+      {
+        "review_id": "review_20261009_140658_807652_1b3d09",
+        "dispatched_requests": 4,
+        "known_total_tokens": 7286,
+        "unknown_cost_attempts": 0,
+        "word_launches": 0,
+        "reused_text": 22,
+        "reused_images": 13
+      },
+      {
+        "review_id": "review_20261009_142213_172699_4f6659",
+        "dispatched_requests": 2,
+        "known_total_tokens": 3473,
+        "unknown_cost_attempts": 0,
+        "word_launches": 0,
+        "reused_text": 29,
+        "reused_images": 13
+      }
+    ]
+  },
+  "limits": {
+    "default_requests": 16,
+    "default_reserved_token_bound": 60000,
+    "hard_requests": 24,
+    "hard_reserved_token_bound": 80000,
+    "output_repairs_per_object": 1,
+    "strict_provider_billing_cap": false
+  },
+  "verification": {
+    "offline_tests": 243,
+    "frontend_build": "passed",
+    "live_browser_counts": {
+      "changes": 18,
+      "compliant": 28,
+      "unreviewed": 0,
+      "pending": 7
+    },
+    "all_four_groups_match_rendered_cards": true,
+    "correct_repeated_table_index": 10,
+    "correct_repeated_table_count": 11,
+    "excluded_scope_objects_open_in_web": 5,
+    "model_progress": {
+      "reviewed": 45,
+      "total": 45,
+      "remaining": 0
+    },
+    "independent_accuracy_test": false
+  },
+  "screenshots": [
+    "D:\\svn_agent\\output\\playwright\\one-pass-progress.png",
+    "D:\\svn_agent\\output\\playwright\\one-pass-completed.png",
+    "D:\\svn_agent\\output\\playwright\\table-scope-exclusions.png",
+    "D:\\svn_agent\\output\\playwright\\exact-table-source.png",
+    "D:\\svn_agent\\output\\playwright\\role-example-compliant.png"
+  ],
+  "code_sha256": {
+    "new_paper_agent.py": "aa078c24c96b843007a671611f57786ea7c814055667ee16d983045b50313fb9",
+    "paper_vision_review.py": "0b6e144a82d9780d3899af3f4e7843c420e31e139d07bf67eeb5d1915de4cdc3",
+    "table_format_checks.py": "83f00e6589aa5375cddfadc41a566cc63572c0a3e07fa2ec6b9912b3811ba13f",
+    "web_backend/new_paper_service.py": "ba4d2138f66159393c44bf224534d9f19a563898261ace7a4a47d8d12fb3cee3",
+    "paper_report.py": "2f29ddbf7429b71282da9b37827e61672b703c5fb0edb9b9d4b5ee7a1086ee41",
+    "web_frontend/src/NewPaperReview.tsx": "bb9699b6b06e3bc2cf8461a620d374f2a0ccdb0e06626f688e9928bae9210441",
+    "web_frontend/src/DocumentViewer.tsx": "508d92f7fa5f30f25bae214518aa53840aebadd578e09dd70318e8f30ef5d3fd"
+  },
+  "reasoning": "Use automatic finite queues and source-bound evidence IDs; resolve reliable native table structure locally, exclude prompt boxes by scope, and retain exact reasons for genuinely unresolved objects. Increasing budget alone or hiding manual items would not correct evidence or scope errors."
+}

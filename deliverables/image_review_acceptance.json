@@ -1,0 +1,19 @@
+{
+  "source_sha256": "7906a3d4e9411981155cecadb344edfe899b5a560146db8d9e42596909457bd8",
+  "figures_reviewed": 24,
+  "model_readable": 24,
+  "image_only_runs": [
+    "review_20261008_230025_458841_f30836",
+    "review_20261008_230510_588668_3096b0",
+    "review_20261008_232305_508063_006707"
+  ],
+  "total_requests": 10,
+  "total_tokens": 32465,
+  "unknown_cost_attempts": 0,
+  "cache_reused": 24,
+  "cache_new_llm": 0,
+  "cache_new_word": 0,
+  "offline_tests": 136,
+  "report_path": "D:\\svn_agent\\data\\new_papers\\paper_20261008_221148_093315_ed67279f\\review_20261008_232305_508063_006707\\report.md",
+  "ui_script": "output/playwright/vision_acceptance.js"
+}

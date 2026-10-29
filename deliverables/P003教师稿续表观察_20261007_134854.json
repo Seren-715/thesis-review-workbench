@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-07T13:48:54.133952+08:00",
+  "rule_id": "XR003",
+  "sample_id": "P003",
+  "revision": 249,
+  "source": {
+    "sample_id": "P003",
+    "revision": 249,
+    "svn_author": "mayy",
+    "svn_commit_time": "2024-04-21T12:35:13.729800Z",
+    "repository_path": "/212003180_周运龙/论文/212003180_周运龙_毕业论文.docx",
+    "source_url": "svn://101.33.242.194/grad/212003180_%E5%91%A8%E8%BF%90%E9%BE%99/%E8%AE%BA%E6%96%87/212003180_%E5%91%A8%E8%BF%90%E9%BE%99_%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87.docx@249",
+    "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_20261007_113217_741043\\P003\\P003_r249_mayy_02.docx",
+    "sha256": "e2fc3aa880a7611d876fe0c3b28859e507105477b9333bf7bfa8b0eb35933f77"
+  },
+  "teacher_comment": {
+    "evidence_id": "e2fc3aa880a7611d876fe0c3b28859e507105477b9333bf7bfa8b0eb35933f77:r249:comment:15",
+    "id": "15",
+    "text": "表格跨页需要写续表",
+    "original_anchor_text": "表4-2 单只股票当日交易数据格式"
+  },
+  "visual_observation": {
+    "table_label": "表4-1",
+    "cross_page_observed": true,
+    "continuation_label_observed": false,
+    "reviewer": "user",
+    "table_identity_confirmation": "user explicit file path and table 4-1 confirmation",
+    "status": "human_observed_cross_page_missing_continuation_label",
+    "screenshot_paths": [
+      "C:\\Users\\seren\\AppData\\Local\\Temp\\QQ_1791351858413.png",
+      "C:\\Users\\seren\\AppData\\Local\\Temp\\QQ_1791351881605.png"
+    ],
+    "version_comparison": {
+      "teacher_reviewed_version": {
+        "revision": 249,
+        "table_label": "表4-1",
+        "cross_page": true,
+        "continuation_label_present": false,
+        "conclusion": "跨页且缺续表标识，命中该教师的续表要求"
+      },
+      "confirmation_origin": "User supplied exact comparison path; stored SVN manifest and unchanged SHA identify r246 initial version.",
+      "pagination_difference_explained": "Comparing earlier student r246 and later teacher-reviewed r249; observed different table pagination, no post-review repair demonstrated.",
+      "earlier_student_version": {
+        "revision": 246,
+        "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P003_initial_20261007_122122_606899\\P003_r246_zhouyl_initial.docx",
+        "source_sha256": "945f50a423f4fb7d4ec6fbb7a049d02923e458d9dfb3a7d6b879b78d2a957660",
+        "svn_author": "zhouyl",
+        "svn_commit_time": "2024-04-21T11:36:51.429471Z",
+        "table_label": "表4-1",
+        "cross_page_observed_by_user": false,
+        "continuation_label_requirement": "not_applicable",
+        "conclusion": "所提供文件是早期学生稿，不是r249之后修改稿；不能据此证明批改问题已修复。"
+      }
+    },
+    "screenshot_roles": [
+      {
+        "path": "C:\\Users\\seren\\AppData\\Local\\Temp\\QQ_1791351858413.png",
+        "role": "teacher_reviewed_version_cross_page_no_continuation_label"
+      },
+      {
+        "path": "C:\\Users\\seren\\AppData\\Local\\Temp\\QQ_1791351881605.png",
+        "role": "earlier_student_r246_table_on_single_page_user_linked_comparison"
+      }
+    ]
+  },
+  "anchor_interpretation": "Teacher anchor points to table4-2; user observed issue at table4-1. Original anchor preserved; no automatic rebinding or claim of teacher intent.",
+  "confirmed_by_automated_layout_tool": false,
+  "independent_accuracy_test": false,
+  "llm_requests": 0,
+  "screenshot_hashes": {
+    "C:\\Users\\seren\\AppData\\Local\\Temp\\QQ_1791351858413.png": "0337b3e8c65da15987e2e388e5d1a1162fb6174c57de412817daf8905562036f",
+    "C:\\Users\\seren\\AppData\\Local\\Temp\\QQ_1791351881605.png": "9c31c9886e3b6b1a60c278705e03d6b1928bcedc268671d22241946f0bcb1647"
+  },
+  "updated_at": "2026-10-07T14:06:35.840257+08:00",
+  "correction_note": "按用户新提供路径及SVN来源纠正时间顺序：r246学生稿早于r249教师稿。先前后续修改稿/已修复记录撤回；观察仍保留，不推断分页变化成因。原教师锚点表4-2保持不变。"
+}

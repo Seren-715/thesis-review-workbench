@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-07T12:59:36.463007+08:00",
+  "sample_id": "P002",
+  "revision": 201,
+  "rule_id": "XR001",
+  "source": {
+    "sample_id": "P002",
+    "revision": 201,
+    "svn_author": "licb",
+    "svn_commit_time": "2024-04-05T09:04:37.690637Z",
+    "repository_path": "/212003113_李晨波/论文/Linux实训教学辅助系统的设计与实现.doc",
+    "source_url": "svn://101.33.242.194/grad/212003113_%E6%9D%8E%E6%99%A8%E6%B3%A2/%E8%AE%BA%E6%96%87/Linux%E5%AE%9E%E8%AE%AD%E6%95%99%E5%AD%A6%E8%BE%85%E5%8A%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.doc@201",
+    "history_sha256": "228e75ae479b266ea2a40be9d85197bb59d59f1506435e13446e0cd21f6103ba",
+    "reviewed_rules_sha256": "681fb204b7db0d91e395fefbabdf9de16962010fb4a68f322d1e510b10cc7ec0",
+    "initial_definition": "earliest recorded student add of this path; not proof of first-ever local draft",
+    "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P002_initial_20261007_122556_603906\\P002_r201_licb_analysis.docx",
+    "sha256": "25c4f714bf2d8827ea9a88294064cc65c648e304d8b9f9e234c00ba6389102ed",
+    "artifact_role": "analysis_copy_from_legacy_svn_doc",
+    "original_export": {
+      "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P002_initial_20261007_122556_603906\\P002_r201_licb_original.doc",
+      "sha256": "d1f3c745abefd9b351f6fb6e261e1bc1a39c7ad588c2bdec62f2c56c6d9786a9",
+      "size_bytes": 740864
+    },
+    "conversion": {
+      "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P002_initial_20261007_122556_603906\\P002_r201_conversion.json",
+      "sha256": "f4b770bc427d3ab3c1b0ab88d3ec4c5cc84b59eec513ea3af8ca7584563a9843",
+      "mode": "comment_text_fidelity_verified_visual_pending"
+    },
+    "visual_verification": "not_verified",
+    "word_cleanup_status": "completed"
+  },
+  "paragraph_index": 680,
+  "offset": 13,
+  "context": "通过这次系统的设计与实现，我很好地了解了spring的强大之处，Linux教学辅助系统能够有效提高",
+  "full_paragraph_text": "通过这次系统的设计与实现，我很好地了解了spring的强大之处，Linux教学辅助系统能够有效提高教学效率，方便教师管理课程、组卷、批阅试卷，同时提供了学生在线学习和测试的便利。同时，进一步的改进和优化仍然是必要的，包括增加系统的功能模块、优化系统的性能和用户体验等方面。",
+  "verdict": "confirmed_match_under_pilot_scope",
+  "reviewer": "user",
+  "review_origin": "user_modified_worksheet_and_conversation_confirmation",
+  "worksheet_path": "D:\\svn_agent\\deliverables\\三学生初稿人工核查表.md",
+  "worksheet_sha256": "898dde1a838aa7f2f2265144caaf56133017fb7c9deea7e1d49af91b031ae7ec",
+  "worksheet_section": "[打开实际早期稿](<D:/svn_agent/data/svn_exports/cross_student_rules_20261007_121139_462691/reviewed_pilot_20261007_121835_788699/P002_initial_20261007_122556_603906/P002_r201_licb_analysis.docx>)\n\nSHA256：25c4f714bf2d8827ea9a88294064cc65c648e304d8b9f9e234c00ba6389102ed\n\n### 候选1 · XML段落680 · 字符偏移13\n\n```text\n通过这次系统的设计与实现，我很好地了解了spring的强大之处，Linux教学辅助系统能够有效提高\n```\n\n复核结论：符合教师要求的待改表述。\n依据/备注：该句位于结论正文：“通过这次系统的设计与实现，我很好地了解了……”。其中“我”指论文作者，属于第一人称自述，并非声明模板、致谢或他人引文，因此命中本轮第一人称检查项。",
+  "limitations": [
+    "Rule derived from P001/P003 teacher feedback; not direct teacher annotation of this P002 passage.",
+    "One verified candidate only; no precision/recall/independent accuracy estimate."
+  ],
+  "llm_requests": 0
+}

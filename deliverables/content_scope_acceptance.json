@@ -1,0 +1,104 @@
+{
+  "paper_id": "paper_20261009_180524_957093_788cb426",
+  "review_id": "review_20261009_203508_356461_context",
+  "new_requests": 7,
+  "new_tokens": 45759,
+  "completion": {
+    "status": "completed",
+    "total": 3,
+    "reviewable": 3,
+    "reviewed": 3,
+    "blocked": 0,
+    "budget_stopped": 0,
+    "reason": "本轮仅重新定位并审阅摘要、结论和系统实现内容，其他已存判断复用。所有可处理对象已在本轮完成审阅。"
+  },
+  "content": [
+    {
+      "id": "NP011-0001",
+      "decision": "suggested_revision",
+      "scope_paragraphs": 2,
+      "read_chunks": 2,
+      "total_chunks": 2
+    },
+    {
+      "id": "NP012-0001",
+      "decision": "suggested_revision",
+      "scope_paragraphs": 2,
+      "read_chunks": 2,
+      "total_chunks": 2
+    },
+    {
+      "id": "NP013-0001",
+      "decision": "not_issue",
+      "scope_paragraphs": 286,
+      "read_chunks": 286,
+      "total_chunks": 286
+    }
+  ],
+  "cached_publication": {
+    "paper_id": "paper_20261009_180524_957093_788cb426",
+    "review_id": "review_20261009_205459_341831_context",
+    "new_requests": 0,
+    "new_tokens": 0,
+    "completion": {
+      "status": "completed",
+      "total": 3,
+      "reviewable": 3,
+      "reviewed": 3,
+      "blocked": 0,
+      "budget_stopped": 0,
+      "reason": "本轮仅重新定位并审阅摘要、结论和系统实现内容，其他已存判断复用。所有可处理对象已在本轮完成审阅。"
+    },
+    "content": [
+      {
+        "id": "NP011-0001",
+        "decision": "suggested_revision",
+        "scope_paragraphs": 2,
+        "read_chunks": 2,
+        "total_chunks": 2
+      },
+      {
+        "id": "NP012-0001",
+        "decision": "suggested_revision",
+        "scope_paragraphs": 2,
+        "read_chunks": 2,
+        "total_chunks": 2
+      },
+      {
+        "id": "NP013-0001",
+        "decision": "not_issue",
+        "scope_paragraphs": 286,
+        "read_chunks": 286,
+        "total_chunks": 286
+      }
+    ]
+  },
+  "tests_passed": 332,
+  "frontend_build": "passed",
+  "browser_second_paragraph_highlight": true,
+  "source_unchanged": true,
+  "groups": {
+    "changes": 13,
+    "compliant": 27,
+    "unreviewed": 0,
+    "pending": 1
+  },
+  "scope_coverage": [
+    {
+      "rule": "NP011",
+      "complete": true,
+      "read_chunks": 2
+    },
+    {
+      "rule": "NP012",
+      "complete": true,
+      "read_chunks": 2
+    },
+    {
+      "rule": "NP013",
+      "complete": true,
+      "read_chunks": 286
+    }
+  ],
+  "frozen_legacy_doc_sha256": "bd04d164a0af60ab1f654180dc910383b55a8fa45541823b09abc90ecf9179cc"
+}

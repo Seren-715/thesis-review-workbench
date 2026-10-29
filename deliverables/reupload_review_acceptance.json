@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-10-09T12:37:47.815034+08:00",
+  "paper_id": "paper_20261009_123046_303705_557790eb",
+  "review_id": "review_20261009_123046_308953_fed017",
+  "source_sha256": "7906a3d4e9411981155cecadb344edfe899b5a560146db8d9e42596909457bd8",
+  "student_name": "欧忠裕",
+  "actual_web_reupload": true,
+  "result_groups": {
+    "changes": 10,
+    "compliant": 23,
+    "unreviewed": 0,
+    "pending": 15
+  },
+  "all_findings_count": 48,
+  "validated_figures": 24,
+  "validated_semantic": 9,
+  "known_total_tokens": 3914,
+  "llm_requests": 2,
+  "unknown_cost_attempts": 0,
+  "word_launches": 0,
+  "reused_figures": 24,
+  "reused_semantic": 8,
+  "pending_rules": {
+    "NP002": 1,
+    "NP010": 1,
+    "NP022": 13
+  },
+  "independent_accuracy_test": false,
+  "scope": "23 implemented check methods, located captioned figures and bounded semantic candidates; not an exhaustive full-paper quality verdict",
+  "checks": {
+    "unit_tests_passed": 160,
+    "typescript_vite_build": "passed",
+    "browser_groups_and_counts": "passed",
+    "in_browser_image_open": "passed",
+    "original_text_located_and_highlighted": "passed",
+    "asset_errors": 0,
+    "source_unchanged": true,
+    "legacy_module_unchanged": true,
+    "newest_valid_result_preferred": true
+  },
+  "paid_recovery": {
+    "original_failed_image_rows_recovered": 4,
+    "subsequent_valid_text_rows_recovered": 3,
+    "new_requests_for_recovery": 0,
+    "raw_request_response_and_prior_ledgers_retained": true
+  },
+  "separate_live_repair_run": {
+    "review_id": "review_20261009_121701_485386_d945f1",
+    "requests": 3,
+    "tokens": 7787,
+    "note": "Additional live repair run, separate from final reupload cost; historical costs retained."
+  },
+  "evidence": {
+    "report": "D:\\svn_agent\\data\\new_papers\\paper_20261009_123046_303705_557790eb\\review_20261009_123046_308953_fed017\\report.json",
+    "ledger": "D:\\svn_agent\\data\\new_papers\\paper_20261009_123046_303705_557790eb\\review_20261009_123046_308953_fed017\\run.json",
+    "browser_script": "D:\\svn_agent\\output\\playwright\\reupload_acceptance.js",
+    "screenshots": [
+      "D:\\svn_agent\\output\\playwright\\reupload_changes.png",
+      "D:\\svn_agent\\output\\playwright\\reupload_compliant.png",
+      "D:\\svn_agent\\output\\playwright\\reupload_image_evidence.png",
+      "D:\\svn_agent\\output\\playwright\\reupload_manual.png",
+      "D:\\svn_agent\\output\\playwright\\reupload_original.png"
+    ]
+  }
+}

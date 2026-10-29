@@ -1,0 +1,326 @@
+{
+  "status": "verified",
+  "repair": "explicit_three_line_table_policy_and_word_pdf_preview",
+  "records": [
+    {
+      "paper_id": "paper_20261008_134411_692980_367dbd7a",
+      "student_name": "网页验收学生",
+      "previous_review_id": "review_20261009_184342_601109_tablepolicy",
+      "review_id": "review_20261009_184610_844826_tablepolicy",
+      "old_groups": {
+        "changes": 6,
+        "compliant": 0,
+        "unreviewed": 0,
+        "pending": 1
+      },
+      "new_groups": {
+        "changes": 6,
+        "compliant": 0,
+        "unreviewed": 0,
+        "pending": 1
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "51558224c4a47edf94d7e5a6353abb46f169246ad6b691b3b7e923ec518f42ef",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261008_134834_203184_8b460f56",
+      "student_name": "分页网页验收",
+      "previous_review_id": "review_20261009_184342_844810_tablepolicy",
+      "review_id": "review_20261009_184611_104124_tablepolicy",
+      "old_groups": {
+        "changes": 0,
+        "compliant": 0,
+        "unreviewed": 0,
+        "pending": 2
+      },
+      "new_groups": {
+        "changes": 0,
+        "compliant": 0,
+        "unreviewed": 0,
+        "pending": 2
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "0724df444af10e3dbc4c995f7b3e435934ce50bd6bf0755763ba761b1e8707a9",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261008_155730_642645_a9ec1ef3",
+      "student_name": "李可欣",
+      "previous_review_id": "review_20261009_184343_171759_tablepolicy",
+      "review_id": "review_20261009_184611_457097_tablepolicy",
+      "old_groups": {
+        "changes": 0,
+        "compliant": 0,
+        "unreviewed": 8,
+        "pending": 12
+      },
+      "new_groups": {
+        "changes": 0,
+        "compliant": 0,
+        "unreviewed": 8,
+        "pending": 12
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "10090c5fdf75a0e1d58261bd89d029f6d0f92f1df18be6780964e307270bd8ae",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261008_155930_025415_2d9cb921",
+      "student_name": "林小滢",
+      "previous_review_id": "review_20261009_184343_675048_tablepolicy",
+      "review_id": "review_20261009_184611_960669_tablepolicy",
+      "old_groups": {
+        "changes": 4,
+        "compliant": 3,
+        "unreviewed": 0,
+        "pending": 29
+      },
+      "new_groups": {
+        "changes": 4,
+        "compliant": 3,
+        "unreviewed": 0,
+        "pending": 29
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "5a8dd05fd46243bccb304f100bba73a9d1d59d0b22836002ae3c47e1fec8d4b3",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261008_174528_945943_b0e536bf",
+      "student_name": "张小龙",
+      "previous_review_id": "review_20261009_184344_235890_tablepolicy",
+      "review_id": "review_20261009_184612_513291_tablepolicy",
+      "old_groups": {
+        "changes": 2,
+        "compliant": 8,
+        "unreviewed": 9,
+        "pending": 29
+      },
+      "new_groups": {
+        "changes": 2,
+        "compliant": 8,
+        "unreviewed": 9,
+        "pending": 29
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "ef329caf47c2513b043ab339b2a204e2cfb903da5c2ae0b9968093ab1e2022d2",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261008_221148_093315_ed67279f",
+      "student_name": "欧忠裕",
+      "previous_review_id": "review_20261009_184344_773007_tablepolicy",
+      "review_id": "review_20261009_184613_053030_tablepolicy",
+      "old_groups": {
+        "changes": 2,
+        "compliant": 24,
+        "unreviewed": 7,
+        "pending": 2
+      },
+      "new_groups": {
+        "changes": 2,
+        "compliant": 24,
+        "unreviewed": 7,
+        "pending": 2
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "7906a3d4e9411981155cecadb344edfe899b5a560146db8d9e42596909457bd8",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261008_232833_231961_c6e9dfb1",
+      "student_name": "欧忠裕",
+      "previous_review_id": "review_20261009_184345_622356_tablepolicy",
+      "review_id": "review_20261009_184613_928670_tablepolicy",
+      "old_groups": {
+        "changes": 9,
+        "compliant": 23,
+        "unreviewed": 1,
+        "pending": 2
+      },
+      "new_groups": {
+        "changes": 9,
+        "compliant": 23,
+        "unreviewed": 1,
+        "pending": 2
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "7906a3d4e9411981155cecadb344edfe899b5a560146db8d9e42596909457bd8",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261009_123046_303705_557790eb",
+      "student_name": "欧忠裕",
+      "previous_review_id": "review_20261009_184346_496262_tablepolicy",
+      "review_id": "review_20261009_184614_829939_tablepolicy",
+      "old_groups": {
+        "changes": 10,
+        "compliant": 23,
+        "unreviewed": 0,
+        "pending": 2
+      },
+      "new_groups": {
+        "changes": 10,
+        "compliant": 23,
+        "unreviewed": 0,
+        "pending": 2
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "7906a3d4e9411981155cecadb344edfe899b5a560146db8d9e42596909457bd8",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261009_124544_120262_1859863b",
+      "student_name": "李越",
+      "previous_review_id": "review_20261009_183746_538720_tablepolicy",
+      "review_id": "review_20261009_184615_657113_tablepolicy",
+      "old_groups": {
+        "changes": 7,
+        "compliant": 16,
+        "unreviewed": 0,
+        "pending": 10
+      },
+      "new_groups": {
+        "changes": 7,
+        "compliant": 16,
+        "unreviewed": 0,
+        "pending": 10
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "cdfe97e57b9f41e9090a8f8ebce00dd1b3aa2f8ff8986ebbfbefc9d832028589",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261009_132046_390353_e0a908c1",
+      "student_name": "周运龙",
+      "previous_review_id": "review_20261009_183747_058551_tablepolicy",
+      "review_id": "review_20261009_184616_387887_tablepolicy",
+      "old_groups": {
+        "changes": 12,
+        "compliant": 28,
+        "unreviewed": 0,
+        "pending": 7
+      },
+      "new_groups": {
+        "changes": 12,
+        "compliant": 28,
+        "unreviewed": 0,
+        "pending": 7
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "4587ec52658753684b820c94b50426fd5fcba80be78ba7807cad4c4b5c545844",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    },
+    {
+      "paper_id": "paper_20261009_180524_957093_788cb426",
+      "student_name": "李晨波",
+      "previous_review_id": "review_20261009_183747_937177_tablepolicy",
+      "review_id": "review_20261009_184617_147930_tablepolicy",
+      "old_groups": {
+        "changes": 5,
+        "compliant": 26,
+        "unreviewed": 0,
+        "pending": 10
+      },
+      "new_groups": {
+        "changes": 5,
+        "compliant": 26,
+        "unreviewed": 0,
+        "pending": 10
+      },
+      "coverage": "not_applicable_policy",
+      "source_sha256": "8cdc707a0e6acdf08476323424ac5a1d1eab7ddb96a0838170b1535fd8ffa1da",
+      "new_llm_requests": 0,
+      "new_svn_requests": 0,
+      "new_word_requests": 0,
+      "source_and_previous_files_unchanged": true,
+      "other_findings_and_reviews_unchanged": true
+    }
+  ],
+  "sample_paper_id": "paper_20261009_180524_957093_788cb426",
+  "sample_review_id": "review_20261009_184617_147930_tablepolicy",
+  "sample_default_groups": {
+    "changes": 5,
+    "compliant": 26,
+    "unreviewed": 0,
+    "pending": 10
+  },
+  "sample_observed_tables": 11,
+  "sample_np022_findings": 0,
+  "table_4_10_word_physical_page": 22,
+  "table_4_11_word_physical_page": 23,
+  "explicit_true_replay": {
+    "structural_suggestions": 10,
+    "unresolved_structure": 1,
+    "persisted_policy": false
+  },
+  "new_llm_requests": 0,
+  "new_tokens": 0,
+  "new_svn_requests": 0,
+  "new_word_requests": 0,
+  "legacy_provenance_module_unchanged": true,
+  "browser_verification": {
+    "checkbox_default": false,
+    "np022_coverage": "未启用此格式要求",
+    "preserved_table_buttons": 11,
+    "table_4_10_pdf_fragment": "#page=22",
+    "table_4_11_pdf_fragment": "#page=23",
+    "pdf_http_status": 200,
+    "pdf_content_type": "application/pdf",
+    "forced_downloads": 0,
+    "screenshots": [
+      "D:\\svn_agent\\output\\playwright\\table_policy_word_page22.png",
+      "D:\\svn_agent\\output\\playwright\\table_policy_default_result.png"
+    ],
+    "existing_figure_preview_http_status": 200,
+    "existing_figure_preview_content_type": "image/png",
+    "registered_original_figure_previews": 22,
+    "sample_np022_current_count": 0
+  },
+  "validation": {
+    "unit_and_integration_tests": 275,
+    "test_status": "passed",
+    "frontend_typescript_and_vite": "passed"
+  }
+}

@@ -1,0 +1,10 @@
+# Tested application runtime. nanobot source is pinned locally by bootstrap.ps1;
+# Its package initializer imports AgentLoop transitively, so complete framework
+# runtime metadata is required even though this app deploys only fixed tools.
+-r requirements-nanobot.txt
+lxml==6.1.3
+openai==3.24.0
+Pillow==12.3.0
+PyMuPDF==1.26.4
+python-docx==1.2.0
+pydantic==2.13.5

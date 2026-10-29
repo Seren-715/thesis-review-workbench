@@ -1,0 +1,15 @@
+{
+  "workcopy": "D:\\SVN虚拟助教",
+  "svn_executable": "C:\\Program Files\\TortoiseSVN\\bin\\svn.exe",
+  "snapshot_revision": 502,
+  "teacher_author": "mayy",
+  "max_teacher_files": 2,
+  "samples": [
+    {
+      "sample_id": "P001",
+      "student_folder": "211706315_黄发平",
+      "initial_revision": 194,
+      "initial_document_path": "/211706315_黄发平/论文/211706315_黄发平_基于深度学习的股价预测模型.docx"
+    }
+  ]
+}

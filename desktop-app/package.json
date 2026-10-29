@@ -1,0 +1,45 @@
+{
+  "name": "thesis-review-desktop",
+  "version": "0.2.0",
+  "private": true,
+  "description": "论文审阅工作台桌面客户端",
+  "main": "src/main.cjs",
+  "author": "Thesis Review Workbench Project",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "dist": "electron-builder --win nsis --x64",
+    "package": "electron-builder --win dir --x64"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "electron-builder": "26.15.3"
+  },
+  "overrides": { "@electron/get": "5.1.0" },
+  "build": {
+    "appId": "cn.thesis.reviewworkbench",
+    "productName": "论文审阅工作台",
+    "copyright": "Thesis Review Workbench Project",
+    "directories": { "output": "../output/standalone_20261022/release" },
+    "extraResources": [{"from":"../output/standalone_20261022/engine","to":"bundled-engine","filter":["**/*"]}],
+    "files": ["src/**/*", "assets/**/*", "package.json", "README.md"],
+    "asar": true,
+    "win": {
+      "target": ["nsis"],
+      "icon": "assets/workbench.ico",
+      "executableName": "ThesisReviewWorkbench",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "论文审阅工作台",
+      "runAfterFinish": false,
+      "artifactName": "ThesisReviewWorkbench-Setup-${version}-${arch}.${ext}"
+    }
+  }
+}

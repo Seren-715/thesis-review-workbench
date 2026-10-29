@@ -1,0 +1,22 @@
+{
+  "sample_id": "P003",
+  "revision": 246,
+  "table_label": "表4-2 单只股票当日交易数据格式",
+  "reviewer": "user",
+  "observation": "not_cross_page",
+  "rule_result": "not_applicable_for_this_table",
+  "page_number": null,
+  "scope": "only this initial-draft table; not other versions",
+  "teacher_comparison_source": {
+    "sample_id": "P003",
+    "revision": 249,
+    "svn_author": "mayy",
+    "svn_commit_time": "2024-04-21T12:35:13.729800Z",
+    "repository_path": "/212003180_周运龙/论文/212003180_周运龙_毕业论文.docx",
+    "source_url": "svn://101.33.242.194/grad/212003180_%E5%91%A8%E8%BF%90%E9%BE%99/%E8%AE%BA%E6%96%87/212003180_%E5%91%A8%E8%BF%90%E9%BE%99_%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87.docx@249",
+    "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_20261007_113217_741043\\P003\\P003_r249_mayy_02.docx",
+    "sha256": "e2fc3aa880a7611d876fe0c3b28859e507105477b9333bf7bfa8b0eb35933f77"
+  },
+  "teacher_quote": "表格跨页需要写续表",
+  "llm_requests": 0
+}

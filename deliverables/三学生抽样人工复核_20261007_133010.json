@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "sample_id": "P001",
+      "source": {
+        "revision": 194,
+        "svn_author": "huangfp",
+        "commit_time": "2024-04-04T08:01:20.682808Z",
+        "commit_message": "初稿",
+        "action": "A",
+        "copyfrom_path": null,
+        "copyfrom_revision": null,
+        "repository_path": "/211706315_黄发平/论文/211706315_黄发平_基于深度学习的股价预测模型.docx",
+        "sample_id": "P001",
+        "source_url": "svn://101.33.242.194/grad/211706315_%E9%BB%84%E5%8F%91%E5%B9%B3/%E8%AE%BA%E6%96%87/211706315_%E9%BB%84%E5%8F%91%E5%B9%B3_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%82%A1%E4%BB%B7%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B.docx@194",
+        "version_role": "svn_initial_draft_based_on_explicit_log",
+        "first_teacher_revision": 206,
+        "selection_basis": "学生新增无复制来源，提交说明初稿，早于同文件教师首改；限此已核验日志中的P001",
+        "history_sha256": "caf4739df6ea86f0b14e5bcefca0ca7cb2054e22d252174b4e96da0dc1692a09",
+        "export_manifest_sha256": "74221d85be32c737f1252e6d5ce4889f8777783aa8bef59b87ff0e7b5f48ce65",
+        "document_path": "D:\\svn_agent\\data\\svn_exports\\P001_20261007_103650_661507\\comment_evidence_20261007_104915_363894\\rule_analysis_20261007_110415_531971\\initial_check_20261007_111448_335299\\P001_r194_huangfp_initial.docx",
+        "sha256": "1def8d253017061149444173cfd84e9355d0042f12e8877073934284e93954c1",
+        "size_bytes": 911462
+      },
+      "rule_id": "XR001",
+      "paragraph_index": 116,
+      "offset": 100,
+      "context": "级别，而R²则说明了模型相对于简单平均模型的改进程度。这些指标共同帮助我们评估模型的预测能力，确保其在实际应用中的有效性和可靠性。",
+      "human_verdict": "符合教师要求的待改表述。",
+      "human_rationale": "该句位于论文正文：原句为“这些指标共同帮助我们评估模型的预测能力，确保其在实际应用中的有效性和可靠性”。命中词是“我们”，位于上下文片段后半部分，作为评估模型的主体，属于正文第一人称表述，并非声明、致谢或他人引文。",
+      "reviewer": "user",
+      "status": "confirmed_match_under_pilot_scope"
+    },
+    {
+      "sample_id": "P002",
+      "source": {
+        "sample_id": "P002",
+        "revision": 201,
+        "svn_author": "licb",
+        "svn_commit_time": "2024-04-05T09:04:37.690637Z",
+        "repository_path": "/212003113_李晨波/论文/Linux实训教学辅助系统的设计与实现.doc",
+        "source_url": "svn://101.33.242.194/grad/212003113_%E6%9D%8E%E6%99%A8%E6%B3%A2/%E8%AE%BA%E6%96%87/Linux%E5%AE%9E%E8%AE%AD%E6%95%99%E5%AD%A6%E8%BE%85%E5%8A%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.doc@201",
+        "history_sha256": "228e75ae479b266ea2a40be9d85197bb59d59f1506435e13446e0cd21f6103ba",
+        "reviewed_rules_sha256": "681fb204b7db0d91e395fefbabdf9de16962010fb4a68f322d1e510b10cc7ec0",
+        "initial_definition": "earliest recorded student add of this path; not proof of first-ever local draft",
+        "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P002_initial_20261007_122556_603906\\P002_r201_licb_analysis.docx",
+        "sha256": "25c4f714bf2d8827ea9a88294064cc65c648e304d8b9f9e234c00ba6389102ed",
+        "artifact_role": "analysis_copy_from_legacy_svn_doc",
+        "original_export": {
+          "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P002_initial_20261007_122556_603906\\P002_r201_licb_original.doc",
+          "sha256": "d1f3c745abefd9b351f6fb6e261e1bc1a39c7ad588c2bdec62f2c56c6d9786a9",
+          "size_bytes": 740864
+        },
+        "conversion": {
+          "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P002_initial_20261007_122556_603906\\P002_r201_conversion.json",
+          "sha256": "f4b770bc427d3ab3c1b0ab88d3ec4c5cc84b59eec513ea3af8ca7584563a9843",
+          "mode": "comment_text_fidelity_verified_visual_pending"
+        },
+        "visual_verification": "not_verified",
+        "word_cleanup_status": "completed"
+      },
+      "rule_id": "XR001",
+      "paragraph_index": 680,
+      "offset": 13,
+      "context": "通过这次系统的设计与实现，我很好地了解了spring的强大之处，Linux教学辅助系统能够有效提高",
+      "human_verdict": "符合教师要求的待改表述。",
+      "human_rationale": "该句位于结论正文：“通过这次系统的设计与实现，我很好地了解了……”。其中“我”指论文作者，属于第一人称自述，并非声明模板、致谢或他人引文，因此命中本轮第一人称检查项。",
+      "reviewer": "user",
+      "status": "confirmed_match_under_pilot_scope"
+    },
+    {
+      "sample_id": "P003",
+      "source": {
+        "sample_id": "P003",
+        "revision": 246,
+        "svn_author": "zhouyl",
+        "svn_commit_time": "2024-04-21T11:36:51.429471Z",
+        "repository_path": "/212003180_周运龙/论文/212003180_周运龙_毕业论文.docx",
+        "source_url": "svn://101.33.242.194/grad/212003180_%E5%91%A8%E8%BF%90%E9%BE%99/%E8%AE%BA%E6%96%87/212003180_%E5%91%A8%E8%BF%90%E9%BE%99_%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87.docx@246",
+        "saved_history_sha256": "1a08999a3d3e03803e4d2babbc3edcf41ad740bd5ae4ac2e316295d26e5321eb",
+        "reviewed_rules_sha256": "681fb204b7db0d91e395fefbabdf9de16962010fb4a68f322d1e510b10cc7ec0",
+        "initial_definition": "earliest recorded student addition of this exact path in saved 502:1 history; not proof of first-ever draft",
+        "document_path": "D:\\svn_agent\\data\\svn_exports\\cross_student_rules_20261007_121139_462691\\reviewed_pilot_20261007_121835_788699\\P003_initial_20261007_122122_606899\\P003_r246_zhouyl_initial.docx",
+        "sha256": "945f50a423f4fb7d4ec6fbb7a049d02923e458d9dfb3a7d6b879b78d2a957660",
+        "size_bytes": 1599991
+      },
+      "rule_id": "XR001",
+      "paragraph_index": 124,
+      "offset": 67,
+      "context": "据的处理与分析，二是预测模型的构建与优化。通过调用商用大语言模型接口，我们可以快速获取和处理大量的股票相关文本数据，包括公司财报、新闻报道、市",
+      "human_verdict": "符合教师要求的待改表述。",
+      "human_rationale": "该句位于研究意义正文：“通过调用商用大语言模型接口，我们可以快速获取和处理大量的股票相关文本数据...”属于第一人称自述，并非声明模板、致谢或他人引文，因此命中本轮第一人称检查项。",
+      "reviewer": "user",
+      "status": "confirmed_match_under_pilot_scope"
+    }
+  ],
+  "worksheet_path": "D:\\svn_agent\\deliverables\\三学生初稿人工核查表.md",
+  "worksheet_sha256": "30862f6cf66334cedf4533cfe4e32a8911c95c97ae461ac836bf0e07e9f1fb85",
+  "confirmed_sampled_candidates": 3,
+  "unreviewed_retained_candidates": 27,
+  "independent_accuracy_test": false,
+  "limits": "Three user-reviewed positive samples only; no independent precision/recall claim; preserves teacher-rule transfer scope."
+}

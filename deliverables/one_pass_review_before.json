@@ -1,0 +1,27 @@
+{
+  "paper_id": "paper_20261009_132046_390353_e0a908c1",
+  "review_id": "review_20261009_132634_509576_2f575d",
+  "source_sha256": "4587ec52658753684b820c94b50426fd5fcba80be78ba7807cad4c4b5c545844",
+  "groups": {
+    "compliant": 17,
+    "changes": 19,
+    "unreviewed": 4,
+    "pending": 18
+  },
+  "pending_rules": {
+    "NP002": 1,
+    "NP010": 1,
+    "NP011": 1,
+    "NP013": 1,
+    "NP016": 1,
+    "NP017": 2,
+    "NP022": 11
+  },
+  "requests": 2,
+  "tokens": 2530,
+  "unknown": 0,
+  "historical_files": {
+    "run.json": "00caf2dfc62ce163ecfce0aea69087575625b956dc0edfaa46e352ac31d83a56",
+    "report.json": "e6a05ba23b464c121022fed23f8af3cc1332598847f3b7174f9ac6bb2f076fa1"
+  }
+}
