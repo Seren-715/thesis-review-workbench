@@ -69,6 +69,21 @@ cd desktop-app; npm test                          # Electron 主进程测试
 
 Python 3.13 · python-docx · lxml · PyMuPDF · Pillow · openai SDK · React 18 · TypeScript · Vite · Tailwind CSS · Electron 44 · electron-builder
 
+## 有用的 UI 组件库（供 AI 辅助开发参考）
+
+以下库可帮助 AI 生成更优质的前端界面，避免从零设计按钮等组件。多数支持 shadcn CLI 或 copy-paste。
+
+1. [shadcn/ui](https://github.com/shadcn-ui/ui) - 标准可定制组件库
+2. [coss.com/ui](https://github.com/cosscom/ui) - Cal.com 官方设计系统（基于 Base UI）
+3. [Kibo UI](https://github.com/haydenbleasel/kibo-ui) - 扩展表格、文件拖放、AI 输入等组件
+4. [Bencho](https://github.com/cabralorenzo/bencho) - 交互微交互组件与声音
+5. [Radix UI Primitives](https://github.com/radix-ui/primitives) - 无样式可访问基础组件
+6. [Magic UI](https://github.com/magicuidesign/magicui) - 动画组件与效果
+7. [Preline UI](https://github.com/htmlstreamofficial/preline) - Tailwind CSS 块与组件（无需 React）
+8. [React Bits](https://github.com/DavidHDev/react-bits) - 动画文本、背景与效果组件
+9. [Aceternity UI](https://ui.aceternity.com/) - 热门 Hero 效果与 landing 组件（registry 安装）
+10. [Tactile UI Free](https://github.com/cipriantitire/tactile-ui-free) - 硬件质感的开源组件
+
 ## 隐私与安全
 
 - `data/`、`output/`、`config.json`、`.env*` 已在 `.gitignore` 中排除；请不要把它们提交进仓库。
